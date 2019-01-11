@@ -1,0 +1,2 @@
+<!--index/index.wxml-->
+<button data-id="2333" bindtap='btn'>获取自身ID</button>

@@ -1,0 +1,24 @@
+<!--test/index.wxml-->
+ <text>{{foo.addPorts(a)}}</text>
+<wxs module="foo">
+  module.exports = {
+    addPorts: function(input) {
+      return input + "wxsssss"
+    }
+  }
+</wxs> 
+<!-- -------------------- -->
+<view>
+  <block wx:if="{{!isloading}}">
+    <text>hello</text>
+    <text>world</text>
+  </block>
+  <text>6666666</text>
+</view>
+
+ <view>
+  <text hidden="{{!isloading}}">hello</text>
+</view>
+<view>
+ <text hidden="{{!isloading}}">world</text>
+</view> 
