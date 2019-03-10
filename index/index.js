@@ -12,6 +12,12 @@ Page({
     const id=e.currentTarget.dataset.id
     console.log(id)
   },
+  tapHandle(e){
+    console.log(e,111111)
+  },
+  tapbind(e){
+    console.log(e,222222)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

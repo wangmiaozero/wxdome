@@ -1,0 +1,8 @@
+<view>
+  <text> item 1</text>
+  <button bindtap='removeHandle' data-id="1">remove</button>
+</view>
+<view>
+  <text> item 2</text>
+  <button bindtap='removeHandle' data-id="2">remove</button>
+</view>

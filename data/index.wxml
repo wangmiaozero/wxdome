@@ -1,0 +1,4 @@
+<text>{{foo}}</text>
+<input bindinput='bindinputdata'  value='{{foo}}' />
+<navigator url='/each/cach'>跳转</navigator>
+<navigator url='/push/push'>push</navigator>

@@ -1,22 +1,22 @@
-// each/cach.js
+// push/push.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    students: [
-      { id: 1, name: "lala1", age: 18 },
-      { id: 2, name: "aaa2", age: 19 },
-      { id: 3, name: "aaa3", age: 19 },
-      { id: 4, name: "aaa4", age: 19 },
-      { id: 5, name: "aaa5", age: 19 },
+    datapush:[
+      { id: 1, name: "张三", age: "18" },
+      { id: 2, name: "张三", age: "18" },
+      { id: 3, name: "张三", age: "18" },
     ]
   },
-  addItemHandle() {
-    const students = [{ id: Math.ceil(Math.random()), name: 'zjamg' + Math.ceil(Math.random()), age: 18 }].concat(this.data.students)
-
-    this.setData({ students })
+  btnbutton(){
+    // const datapush = [{ id: Math.ceil(Math.random()), name: "李四" + Math.ceil(Math.random()), age: 20 }].concat(this.data.datapush)
+    
+    const datas = this.data.datapush.push({ id: Math.ceil(Math.random()), name: "李四" + Math.ceil(Math.random()), age: 20 })
+    console.log(this.data.datapush)
+    this.setData({ datas})
   },
 
   /**

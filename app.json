@@ -1,7 +1,10 @@
 {
   "pages": [
-    "index/index",
+    "data/index",
+    "push/push",
     "each/cach",
+    "params/index",
+    "index/index",
     "test/index",
     "pages/index/index",
     "pages/logs/logs"

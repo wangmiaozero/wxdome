@@ -11,5 +11,5 @@
     </checkbox>
   </view>
 </view>
-<text wx:for="{{item}}"></text>
+<!-- <text wx:for="{{item}}"></text> -->
 <button bindtap='addItemHandle'>add</button>

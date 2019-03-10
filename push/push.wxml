@@ -1,0 +1,10 @@
+<!--push/push.wxml-->
+<view wx:for="{{datapush}}" wx:for-index="i" wx:key="id">
+<checkbox>
+  <text>{{item.name}}</text>
+  <text>id:</text>
+  <text>{{i+1}}</text>
+  </checkbox>
+</view>
+<button bindtap="btnbutton">在后面添加</button>
+

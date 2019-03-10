@@ -1,2 +1,6 @@
 <!--index/index.wxml-->
-<button data-id="2333" bindtap='btn'>获取自身ID</button>
+<button data-id="2333" bindtap='btn'>获取自身ID</button> 
+<view bindtap="tapbind">
+  <button id='btn' catchtap="tapHandle">冒泡</button>
+</view>
+
